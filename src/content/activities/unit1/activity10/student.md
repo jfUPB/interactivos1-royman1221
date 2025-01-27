@@ -1,3 +1,4 @@
+``` py
 let port;
 let connectBtn;
 let squareColor = 'blue'; // Color inicial del cuadrado
@@ -39,3 +40,4 @@ function drawSquare() {
     fill(squareColor); 
     rect(width / 2 - 25, height / 2 - 25, 50, 50); 
 }
+``` 
