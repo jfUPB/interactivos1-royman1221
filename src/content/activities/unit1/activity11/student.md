@@ -37,16 +37,15 @@ function setup() {
     connectBtn.position(80, 300);
     connectBtn.mousePressed(connectBtnClick);
     
-    circleX = width / 2; // Inicializa la posición X del círculo en el centro del canvas
-}
+    circleX = width / 2; 
 
 function draw() {
     background(220);
-    fill('blue'); // Color del círculo
+    fill('blue'); 
     ellipse(circleX, height / 2, 50, 50); // Dibuja el círculo
 
     if (port.availableBytes() > 0) {
-        let dataRx = port.read(1); // Lee un byte de datos
+        let dataRx = port.read(1); 
         if (dataRx == 'A') {
             circleX -= 10; // Mueve el círculo a la izquierda
         } else if (dataRx == 'B') {
@@ -57,7 +56,7 @@ function draw() {
         circleX = constrain(circleX, 25, width - 25);
     }
 
-    // Actualiza el texto del botón de conexión
+   
     if (!port.opened()) {
         connectBtn.html('Connect to micro:bit');
     } else {
@@ -67,7 +66,7 @@ function draw() {
 
 function connectBtnClick() {
     if (!port.opened()) {
-        port.open('MicroPython', 115200); // Conecta al puerto del micro:bit
+        port.open('MicroPython', 115200);
     } else {
         port.close(); // Desconecta
     }
