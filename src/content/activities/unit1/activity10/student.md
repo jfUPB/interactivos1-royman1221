@@ -1,7 +1,7 @@
 ``` py
 let port;
 let connectBtn;
-let squareColor = 'blue'; // Color inicial del cuadrado
+let squareColor = 'blue'; 
 
 function setup() {
     createCanvas(400, 400);
@@ -11,13 +11,13 @@ function setup() {
 }
 
 function draw() {
-    background(220); // Limpiar el fondo
-    drawSquare(); // Dibujar el cuadrado
+    background(220);
+    drawSquare(); 
 
     if (port.availableBytes() > 0) {
         let dataRx = port.read(1);
         
-        // Cambiar el color del cuadrado según el dato recibido
+      
         if (dataRx == 'A') {
             squareColor = 'red'; // Cambiar a rojo
         } else if (dataRx == 'B') {
