@@ -1,5 +1,5 @@
 #### En microbit
-``` js
+``` py
 from microbit import *
 uart.init(baudrate=115200)
 display.show(Image.BUTTERFLY)
