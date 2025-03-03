@@ -47,7 +47,7 @@ Hipotesis:
 
 Se espera que al presionar los botones en un orden específico (por ejemplo, A y luego B), el micro:bit realice una acción diferente a presionarlos al mismo tiempo o por separado.
 
-``` Py
+``` py
 from microbit import *
 
 orden_correcto = False
