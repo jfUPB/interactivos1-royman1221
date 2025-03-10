@@ -26,7 +26,7 @@ Resultados Esperados:
 
 * El micro:bit cambia inmediatamente a STATE_SAD, sin esperar el tiempo de HAPPY.
 * SAD dura 2000 ms antes de cambiar a HAPPY.
-* 
+  
 Resultados Obtenidos: Si al presionar A, la cara cambia de HAPPY a SAD sin esperar el tiempo, la prueba se considera exitosa.
 
 
