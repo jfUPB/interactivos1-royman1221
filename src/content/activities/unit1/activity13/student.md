@@ -1,3 +1,4 @@
-####
-Durante esta unidad me ayudó a identificar fortalezas y areas de mejora, disfrute pensar y explorar sobre el tema del diseño generativo, aunque la implementacion tecnica fue un reto. utilce consultas con la IA cuando tenia errores o no sabuia como iniciar 
-si se exprimento algo de frustracion cuando no sabias que hacer, pero tambien sentimientos de disfrutar cuando lograbas resolver los ejercicios.
+
+Durante esta unidad, pude identificar tanto mis fortalezas como mis áreas de mejora. Disfruté explorar y reflexionar sobre el diseño generativo, ya que me pareció un tema muy interesante. Sin embargo, la implementación técnica representó un desafío para mí.
+
+Para superar las dificultades, utilicé estrategias como consultas con la IA cuando tenía errores o no sabía cómo comenzar. En algunos momentos experimenté frustración al no saber qué hacer, pero también sentí una gran satisfacción al lograr resolver los ejercicios.
