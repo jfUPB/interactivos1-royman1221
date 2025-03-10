@@ -1,0 +1,4 @@
+El diseño de la máquina de estados para la bomba temporizada requirió una planificación cuidadosa para garantizar que cada transición fuera lógica y eficiente.
+Opté por dividir el sistema en tres estados principales: configuración, armado y explosión, lo que facilitó la organización del flujo de trabajo. La principal dificultad fue gestionar correctamente las interrupciones del usuario,
+como el ajuste del tiempo con los botones y la reactivación mediante el touch. Inicialmente, hubo problemas con la detección del gesto de shake y la actualización de la pantalla, lo que requirió optimizar el manejo de eventos y tiempos. 
+También enfrenté dificultades con la implementación del sonido de la explosión, asegurando que se reprodujera en el momento adecuado. Una posible mejora sería agregar un temporizador más preciso con un bucle no bloqueante, permitiendo una mayor fluidez en la cuenta regresiva
