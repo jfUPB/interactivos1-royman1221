@@ -19,3 +19,65 @@ Funcion preload()
 * lineModule[1]: cargará la imagen 'data/02.svg'.
 
 * lineModule[2]: cargará la imagen 'data/03.svg', y así sucesivamente.
+
+
+funcion Setup ()
+
+* createCanvas(windowWidth, windowHeight): Crea un lienzo de dibujo del tamaño de la ventana del navegador.
+
+* background(255): Establece el color de fondo blanco.
+
+* noCursor(): Elimina el cursor del ratón.
+
+* strokeWeight(0.75): Establece el grosor de la línea utilizada en el dibujo.
+
+* Inicializa el color c con un valor de amarillo: color(181, 157, 0).
+
+
+Función windowResized()
+
+* Asegura que el lienzo se ajuste automaticamente cuando se cambie el tamaño de la ventana del navegador
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
